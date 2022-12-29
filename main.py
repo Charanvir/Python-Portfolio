@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas
+project_data = pandas.read_csv("pythonportfoliodata.csv")
 
 st.set_page_config(layout="wide")
 
@@ -24,3 +26,21 @@ like to work on together,
 """
 
 projects_subheading = st.write(content)
+
+col3, empty, col4 = st.columns([1.5, 0.5, 1.5])
+
+with col3:
+    for index, row in project_data[:3].iterrows():
+        st.header(row["title"])
+        st.write(row["description"])
+        image = row["image"]
+        st.image(f"images/{image}", width=250)
+        st.write(f"[Source Code]({row['url']})")
+
+with col4:
+    for index, row in project_data[3:].iterrows():
+        st.header(row["title"])
+        st.write(row["description"])
+        image = row["image"]
+        st.image(f"images/{image}", width=250)
+        st.write(f"[Source Code]({row['url']})")
