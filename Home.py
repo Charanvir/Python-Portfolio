@@ -15,8 +15,8 @@ with col2:
     frameworks and create and work on projects. This portfolio is to showcase the Python projects that I have 
     created. I will be adding new projects regularly as I work on new projects and learn additional frameworks and 
     libraries associated with Python. My passion lies with artificial intelligence and machine learning and how they 
-    relate to the medical field. I hope to start building models and programs that can relate these two fields that I 
-    enjoy."""
+    relate to the medical field. I hope to start building models and programs that can relate these two fields.
+    """
     st.info(content)
 
 content = """
