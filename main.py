@@ -16,3 +16,11 @@ with col2:
     relate to the medical field. I hope to start building models and programs that can relate these two fields that I 
     enjoy."""
     st.info(content)
+
+content = """
+Below are some projects that I have built in Python. Each project has a link to the GitHub repository in which the 
+source code is located. Feel free to contact me to discuss some of my projects, or potential future projects you would 
+like to work on together,
+"""
+
+projects_subheading = st.write(content)
