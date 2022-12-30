@@ -4,7 +4,7 @@
 
 ## <u>Table of Contents</u>
 
-1. [About Me](#About Me)
+1. [About Me](#About-Me)
 2. [Projects](#Projects)
 
 ## About Me
